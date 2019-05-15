@@ -21,19 +21,19 @@
 		 <em>hotel System</em>
 	</h1>
 	<div class="layui-user-icon larry-login">
-		 <input type="text" placeholder="账号" class="login_txtbx"/>
+		 <input type="text" placeholder="账号" class="login_txtbx" name="username"/>
 	</div>
 	<div class="layui-pwd-icon larry-login">
-		 <input type="password" placeholder="密码" class="login_txtbx"/>
+		 <input type="password" placeholder="密码" class="login_txtbx" name="password"/>
 	</div>
     	<div class="layui-pwd-icon larry-login">
-		 <input type="password" placeholder="确认密码" class="login_txtbx"/>
+		 <input type="password" placeholder="确认密码" class="login_txtbx" name="repassword"/>
 	</div>
     <div class="layui-user-icon larry-login">
-		 <input type="phonenumber" placeholder="手机号" class="login_txtbx"/>
+		 <input type="phonenumber" placeholder="手机号" class="login_txtbx" name="phonenumber"/>
 	</div>
     <div class="layui-user-icon larry-login">
-		 <input type="mail" placeholder="邮箱" class="login_txtbx"/>
+		 <input type="mail" placeholder="邮箱" class="login_txtbx" name="mail"/>
 	</div>
     <div class="layui-val-icon larry-login">
     	<div class="layui-code-box">
@@ -68,6 +68,9 @@ $(function(){
 	  location.href="singin.html";
 	});
 });
+//注册验证
+var username
 </script>
+
 </body>
 </html>
